@@ -1,3 +1,14 @@
+"""Create test.ics
+
+Run via::
+
+    uv run ./main.py
+
+Resources:
+    - https://icalendar.org/validator.html
+    - https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/
+"""
+
 from datetime import datetime, timezone
 from pathlib import Path
 
